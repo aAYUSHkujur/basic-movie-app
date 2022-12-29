@@ -14,9 +14,9 @@ function App() {
        <Header />
        <Container>
        <Routes>
-          <Route path="/Trending" element={<Trending />} />
+          <Route path="/trending" element={<Trending />} />
           <Route path="/movies" element={<Movies />} />
-          <Route path="/TVseries" element={<TVSeries />} />
+          <Route path="/tvseries" element={<TVSeries />} />
           <Route path="/search" element={<Search />} />
        </Routes>
        </Container>
